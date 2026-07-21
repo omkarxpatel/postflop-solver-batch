@@ -27,6 +27,20 @@
       "flops": 600
     },
     {
+      "label": "HU: SB open, BB 3-bets, SB calls @ SPR 4",
+      "oopRange": "AA,KK,QQ,JJ,TT,99:0.50,A9s,ATs,AJs,AQs,AKs,A5s:0.50,A4s:0.50,KTs,KJs,KQs,QTs,QJs,AJo,AQo,AKo,ATo:0.50,KQo,76s:0.50,65s:0.50",
+      "ipRange": "QQ:0.50,JJ,TT,99,88,77:0.50,ATs,AJs,AQs,KQs,KJs:0.50,QJs:0.50,JTs,T9s,98s:0.50,AQo,AKo:0.50",
+      "spr": 4,
+      "flops": 1000
+    },
+    {
+      "label": "HU: limped, checked through @ SPR 15",
+      "oopRange": "ATo,A9s,A9o,A8s,A8o,A7s,A7o,A6s,A6o,A5s:0.50,A5o,A4s,A4o,A3s,A3o,A2s,A2o,KJo,KTs,KTo,K9s,K9o,K8s,K8o,K7s,K7o,K6s,K6o,K5s,K5o,K4s,K4o,K3s,K3o,K2s,K2o,QJo,QTs,QTo,Q9s,Q9o,Q8s,Q8o,Q7s,Q7o,Q6s,Q6o,Q5s,Q5o,Q4s,Q4o,Q3s,Q3o,Q2s,Q2o,JTs,JTo,J9s,J9o,J8s,J8o,J7s,J7o,J6s,J6o,J5s,J5o,J4s,J4o,J3s,J3o,J2s,J2o,T9s,T9o,T8s,T8o,T7s,T7o,T6s,T6o,T5s,T5o,T4s,T4o,T3s,T3o,T2s,T2o,98s,98o,97s,97o,96s,96o,95s,95o,94s,94o,93s,93o,92s,92o,88,87s:0.75,87o,86s,86o,85s,85o,84s,84o,83s,83o,82s,82o,77,76s:0.75,76o,75s,75o,74s,74o,73s,73o,72s,72o,66,65s,65o,64s,64o,63s,63o,62s,62o,55,54s,54o,53s,53o,52s,52o,44,43s,43o,42s,42o,33,32s,32o,22",
+      "ipRange": "77,66,55,44,33,22,A9s,A8s,A7s,A6s,A5s:0.50,A4s,A3s,A2s,K5s,K6s,K7s,K8s,K9s,KTs,Q8s,Q9s,QTs,QJs:0.50,J8s,J9s,JTs,T7s,T8s,T9s,96s,97s,98s,85s,86s,87s,75s,76s,64s,65s,54s,43s:0.50,ATo:0.50,KTo:0.50,QTo:0.50,JTo,T9o:0.50",
+      "spr": 15,
+      "flops": 400
+    },
+    {
       "label": "SRP: BTN open vs BB defend @ SPR 15",
       "oopRange": "99:0.50,88,77,66,55,44,33,22,A6s,A7s,A8s,A9s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs:0.50,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs:0.50,J6s,J7s,J8s,J9s,JTs:0.50,T6s,T7s,T8s,T9s,95s,96s,97s,98s,84s,85s,86s,87s:0.75,74s,75s,76s:0.75,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,K7o,K8o,K9o,KTo,KJo,KQo:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,98o,97o:0.50,87o:0.50",
       "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,96s,97s,98s,85s,86s,87s,75s,76s,64s,65s,54s,43s:0.50,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K8o,K9o,KTo,KJo,KQo,Q9o,QTo,QJo,J9o,JTo,T8o:0.50,T9o,98o:0.50",
