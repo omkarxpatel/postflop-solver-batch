@@ -20,14 +20,14 @@ jobs:
           - { line: 1, chunk: 1, of: 4 }
           - { line: 1, chunk: 2, of: 4 }
           - { line: 1, chunk: 3, of: 4 }
-          # line 2: HU SPR 8 (top 1000)
+          # line 2: HU SPR 8
           - { line: 2, chunk: 0, of: 6 }
           - { line: 2, chunk: 1, of: 6 }
           - { line: 2, chunk: 2, of: 6 }
           - { line: 2, chunk: 3, of: 6 }
           - { line: 2, chunk: 4, of: 6 }
           - { line: 2, chunk: 5, of: 6 }
-          # line 3: HU SPR 12 (top 600)
+          # line 3: HU SPR 12
           - { line: 3, chunk: 0, of: 8 }
           - { line: 3, chunk: 1, of: 8 }
           - { line: 3, chunk: 2, of: 8 }
@@ -36,11 +36,11 @@ jobs:
           - { line: 3, chunk: 5, of: 8 }
           - { line: 3, chunk: 6, of: 8 }
           - { line: 3, chunk: 7, of: 8 }
-          # line 4: HU 3-bet pot SPR 4 (top 1000)
+          # line 4: HU 3-bet SPR 4
           - { line: 4, chunk: 0, of: 3 }
           - { line: 4, chunk: 1, of: 3 }
           - { line: 4, chunk: 2, of: 3 }
-          # line 5: HU limped SPR 15 (top 400, slowest)
+          # line 5: HU limped SPR 15
           - { line: 5, chunk: 0, of: 8 }
           - { line: 5, chunk: 1, of: 8 }
           - { line: 5, chunk: 2, of: 8 }
@@ -52,15 +52,33 @@ jobs:
           # line 6: SRP BTN@15
           - { line: 6, chunk: 0, of: 2 }
           - { line: 6, chunk: 1, of: 2 }
-          # line 7: SRP CO@15
+          # line 7: SRP BTN@8
           - { line: 7, chunk: 0, of: 2 }
           - { line: 7, chunk: 1, of: 2 }
-          # line 8: SRP MP@15
+          # line 8: SRP CO@15
           - { line: 8, chunk: 0, of: 2 }
           - { line: 8, chunk: 1, of: 2 }
-          # line 9: SRP EP@15
+          # line 9: SRP CO@8
           - { line: 9, chunk: 0, of: 2 }
           - { line: 9, chunk: 1, of: 2 }
+          # line 10: SRP MP@15
+          - { line: 10, chunk: 0, of: 2 }
+          - { line: 10, chunk: 1, of: 2 }
+          # line 11: SRP MP@8
+          - { line: 11, chunk: 0, of: 2 }
+          - { line: 11, chunk: 1, of: 2 }
+          # line 12: SRP EP@15
+          - { line: 12, chunk: 0, of: 2 }
+          - { line: 12, chunk: 1, of: 2 }
+          # line 13: SRP EP@8
+          - { line: 13, chunk: 0, of: 2 }
+          - { line: 13, chunk: 1, of: 2 }
+          # line 14: SRP SB@15
+          - { line: 14, chunk: 0, of: 2 }
+          - { line: 14, chunk: 1, of: 2 }
+          # line 15: SRP SB@8
+          - { line: 15, chunk: 0, of: 2 }
+          - { line: 15, chunk: 1, of: 2 }
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
