@@ -1,0 +1,58 @@
+{
+  "lines": [
+    {
+      "label": "HU: SB open vs BB defend @ SPR 3",
+      "oopRange": "99:0.50,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A5s:0.50,A6s,A7s,A8s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,95s,96s,97s,98s,85s,86s,87s,74s,75s,76s:0.50,64s,65s:0.50,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo:0.50,K7o,K8o,K9o,KTo,KJo,K6o:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,97o,98o,87o,76o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J2s,J3s,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T2s,T3s,T4s,T5s,T6s,T7s,T8s,T9s,93s,94s,95s,96s,97s,98s,84s,85s,86s,87s,74s,75s,76s,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K2o,K3o,K4o,K5o,K6o,K7o,K8o,K9o,KTo,KJo,KQo,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,Q9o,QTo,QJo,J4o,J5o,J6o,J7o,J8o,J9o,JTo,T6o,T7o,T8o,T9o,96o,97o,98o,86o,87o,75o,76o,65o",
+      "spr": 3
+    },
+    {
+      "label": "HU: SB open vs BB defend @ SPR 5",
+      "oopRange": "99:0.50,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A5s:0.50,A6s,A7s,A8s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,95s,96s,97s,98s,85s,86s,87s,74s,75s,76s:0.50,64s,65s:0.50,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo:0.50,K7o,K8o,K9o,KTo,KJo,K6o:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,97o,98o,87o,76o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J2s,J3s,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T2s,T3s,T4s,T5s,T6s,T7s,T8s,T9s,93s,94s,95s,96s,97s,98s,84s,85s,86s,87s,74s,75s,76s,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K2o,K3o,K4o,K5o,K6o,K7o,K8o,K9o,KTo,KJo,KQo,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,Q9o,QTo,QJo,J4o,J5o,J6o,J7o,J8o,J9o,JTo,T6o,T7o,T8o,T9o,96o,97o,98o,86o,87o,75o,76o,65o",
+      "spr": 5
+    },
+    {
+      "label": "HU: SB open vs BB defend @ SPR 8",
+      "oopRange": "99:0.50,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A5s:0.50,A6s,A7s,A8s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,95s,96s,97s,98s,85s,86s,87s,74s,75s,76s:0.50,64s,65s:0.50,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo:0.50,K7o,K8o,K9o,KTo,KJo,K6o:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,97o,98o,87o,76o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J2s,J3s,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T2s,T3s,T4s,T5s,T6s,T7s,T8s,T9s,93s,94s,95s,96s,97s,98s,84s,85s,86s,87s,74s,75s,76s,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K2o,K3o,K4o,K5o,K6o,K7o,K8o,K9o,KTo,KJo,KQo,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,Q9o,QTo,QJo,J4o,J5o,J6o,J7o,J8o,J9o,JTo,T6o,T7o,T8o,T9o,96o,97o,98o,86o,87o,75o,76o,65o",
+      "spr": 8,
+      "flops": 1000
+    },
+    {
+      "label": "HU: SB open vs BB defend @ SPR 12",
+      "oopRange": "99:0.50,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A5s:0.50,A6s,A7s,A8s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,95s,96s,97s,98s,85s,86s,87s,74s,75s,76s:0.50,64s,65s:0.50,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo:0.50,K7o,K8o,K9o,KTo,KJo,K6o:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,97o,98o,87o,76o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J2s,J3s,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T2s,T3s,T4s,T5s,T6s,T7s,T8s,T9s,93s,94s,95s,96s,97s,98s,84s,85s,86s,87s,74s,75s,76s,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K2o,K3o,K4o,K5o,K6o,K7o,K8o,K9o,KTo,KJo,KQo,Q2o,Q3o,Q4o,Q5o,Q6o,Q7o,Q8o,Q9o,QTo,QJo,J4o,J5o,J6o,J7o,J8o,J9o,JTo,T6o,T7o,T8o,T9o,96o,97o,98o,86o,87o,75o,76o,65o",
+      "spr": 12,
+      "flops": 600
+    },
+    {
+      "label": "SRP: BTN open vs BB defend @ SPR 15",
+      "oopRange": "99:0.50,88,77,66,55,44,33,22,A6s,A7s,A8s,A9s,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs:0.50,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs:0.50,J6s,J7s,J8s,J9s,JTs:0.50,T6s,T7s,T8s,T9s,95s,96s,97s,98s,84s,85s,86s,87s:0.75,74s,75s,76s:0.75,63s,64s,65s,53s,54s,43s,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,K7o,K8o,K9o,KTo,KJo,KQo:0.50,Q8o,Q9o,QTo,QJo,J8o,J9o,JTo,T8o,T9o,98o,97o:0.50,87o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K2s,K3s,K4s,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q2s,Q3s,Q4s,Q5s,Q6s,Q7s,Q8s,Q9s,QTs,QJs,J4s,J5s,J6s,J7s,J8s,J9s,JTs,T6s,T7s,T8s,T9s,96s,97s,98s,85s,86s,87s,75s,76s,64s,65s,54s,43s:0.50,A2o,A3o,A4o,A5o,A6o,A7o,A8o,A9o,ATo,AJo,AQo,AKo,K8o,K9o,KTo,KJo,KQo,Q9o,QTo,QJo,J9o,JTo,T8o:0.50,T9o,98o:0.50",
+      "spr": 15,
+      "flops": 400
+    },
+    {
+      "label": "SRP: CO open vs BB defend @ SPR 15",
+      "oopRange": "TT:0.50,99,88,77,66,55,44,33,22,A6s,A7s,A8s,A9s,ATs,AJs,K5s,K6s,K7s,K8s,K9s,KTs,KJs,KQs:0.50,Q7s,Q8s,Q9s,QTs,QJs,J7s,J8s,J9s,JTs,T7s,T8s,T9s,96s,97s,98s,85s,86s,87s,75s,76s,64s,65s,54s,43s:0.50,ATo,AJo,AQo:0.50,A9o:0.50,KTo,KJo,KQo,QTo,QJo,JTo,T9o:0.50",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K6s,K7s,K8s,K9s,KTs,KJs,KQs,Q8s,Q9s,QTs,QJs,J8s,J9s,JTs,T8s,T9s,97s,98s,86s,87s,76s,65s,54s,A8o,A9o,ATo,AJo,AQo,AKo,A5o:0.50,KTo,KJo,KQo,QTo,QJo,JTo",
+      "spr": 15,
+      "flops": 400
+    },
+    {
+      "label": "SRP: MP open vs BB defend @ SPR 15",
+      "oopRange": "JJ:0.50,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A6s,A7s,A8s,A9s,ATs,AJs,AQs,K8s,K9s,KTs,KJs,KQs,Q8s,Q9s,QTs,QJs,J8s,J9s,JTs,T8s,T9s,97s,98s,86s,87s,75s,76s:0.75,64s,65s:0.75,54s,ATo,AJo,AQo,KTo,KJo,KQo,QTo,QJo,JTo,T9o:0.50,98o:0.25",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,K8s,K9s,KTs,KJs,KQs,Q9s,QTs,QJs,J9s,JTs,T9s,98s,87s,76s,65s,54s,ATo,AJo,AQo,AKo,A9o:0.50,KJo,KQo,QJo:0.50",
+      "spr": 15,
+      "flops": 400
+    },
+    {
+      "label": "SRP: EP open vs BB defend @ SPR 15",
+      "oopRange": "JJ,TT,99,88,77,66,55,44,33,22,A2s,A3s,A4s:0.50,A5s:0.50,A6s,A7s,A8s,A9s,ATs,AJs,AQs,K9s,KTs,KJs,KQs,Q9s,QTs,QJs,J9s,JTs,T8s,T9s,97s,98s,86s,87s,76s,65s,54s,ATo,AJo,AQo,AKo:0.50,KJo,KQo,QJo",
+      "ipRange": "AA,KK,QQ,JJ,TT,99,88,77,66,55,44,33,22,A4s,A5s,A6s,A7s,A8s,A9s,ATs,AJs,AQs,AKs,A3s:0.50,A2s:0.50,KTs,KJs,KQs,QTs,QJs,JTs,T9s,98s,87s,76s,65s,ATo,AJo,AQo,AKo,KQo,KJo:0.50",
+      "spr": 15,
+      "flops": 400
+    }
+  ]
+}

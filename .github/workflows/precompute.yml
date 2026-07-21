@@ -1,0 +1,69 @@
+name: precompute
+
+on:
+  workflow_dispatch:
+
+jobs:
+  solve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # line 0: HU SPR 3 (1755 flops, fast)
+          - { line: 0, chunk: 0, of: 3 }
+          - { line: 0, chunk: 1, of: 3 }
+          - { line: 0, chunk: 2, of: 3 }
+          # line 1: HU SPR 5 (1755 flops)
+          - { line: 1, chunk: 0, of: 4 }
+          - { line: 1, chunk: 1, of: 4 }
+          - { line: 1, chunk: 2, of: 4 }
+          - { line: 1, chunk: 3, of: 4 }
+          # line 2: HU SPR 8 (top 1000 flops)
+          - { line: 2, chunk: 0, of: 6 }
+          - { line: 2, chunk: 1, of: 6 }
+          - { line: 2, chunk: 2, of: 6 }
+          - { line: 2, chunk: 3, of: 6 }
+          - { line: 2, chunk: 4, of: 6 }
+          - { line: 2, chunk: 5, of: 6 }
+          # line 3: HU SPR 12 (top 600 flops, slowest trees)
+          - { line: 3, chunk: 0, of: 8 }
+          - { line: 3, chunk: 1, of: 8 }
+          - { line: 3, chunk: 2, of: 8 }
+          - { line: 3, chunk: 3, of: 8 }
+          - { line: 3, chunk: 4, of: 8 }
+          - { line: 3, chunk: 5, of: 8 }
+          - { line: 3, chunk: 6, of: 8 }
+          - { line: 3, chunk: 7, of: 8 }
+          # lines 4-7: 6-max SRP vs BB @ SPR 15 (top 400 flops each)
+          - { line: 4, chunk: 0, of: 2 }
+          - { line: 4, chunk: 1, of: 2 }
+          - { line: 5, chunk: 0, of: 2 }
+          - { line: 5, chunk: 1, of: 2 }
+          - { line: 6, chunk: 0, of: 2 }
+          - { line: 6, chunk: 1, of: 2 }
+          - { line: 7, chunk: 0, of: 2 }
+          - { line: 7, chunk: 1, of: 2 }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          shared-key: solver
+      - name: Build
+        run: cargo build --release
+      - name: Solve chunk
+        env:
+          WIZGTO_CACHE_DIR: cache-out
+        # Stop ~35 min before the job cap so partial results still upload;
+        # the batch is resumable, a re-run picks up whatever is missing.
+        run: |
+          timeout -k 60 18900 ./target/release/wizgto-solver precompute cache-config.json \
+            --line ${{ matrix.line }} --chunk ${{ matrix.chunk }}/${{ matrix.of }} || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cache-line${{ matrix.line }}-chunk${{ matrix.chunk }}
+          path: cache-out/*.json
+          if-no-files-found: warn
