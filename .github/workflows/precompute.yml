@@ -90,10 +90,10 @@ jobs:
       - name: Solve chunk
         env:
           WIZGTO_CACHE_DIR: cache-out
-        # Stop ~35 min before the job cap so partial results still upload;
-        # the batch is resumable, a re-run picks up whatever is missing.
+        # Hosted runners in this repo have been getting reclaimed around ~75 min.
+        # Stop earlier so partial results upload instead of the job being canceled.
         run: |
-          timeout -k 60 18900 ./target/release/wizgto-solver precompute cache-config.json \
+          timeout -k 60 3900 ./target/release/wizgto-solver precompute cache-config.json \
             --line ${{ matrix.line }} --chunk ${{ matrix.chunk }}/${{ matrix.of }} || true
       - uses: actions/upload-artifact@v4
         if: always()
