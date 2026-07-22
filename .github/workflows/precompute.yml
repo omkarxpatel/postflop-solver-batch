@@ -50,35 +50,85 @@ jobs:
           - { line: 5, chunk: 6, of: 8 }
           - { line: 5, chunk: 7, of: 8 }
           # line 6: SRP BTN@15
-          - { line: 6, chunk: 0, of: 2 }
-          - { line: 6, chunk: 1, of: 2 }
+          - { line: 6, chunk: 0, of: 8 }
+          - { line: 6, chunk: 1, of: 8 }
+          - { line: 6, chunk: 2, of: 8 }
+          - { line: 6, chunk: 3, of: 8 }
+          - { line: 6, chunk: 4, of: 8 }
+          - { line: 6, chunk: 5, of: 8 }
+          - { line: 6, chunk: 6, of: 8 }
+          - { line: 6, chunk: 7, of: 8 }
           # line 7: SRP BTN@8
-          - { line: 7, chunk: 0, of: 2 }
-          - { line: 7, chunk: 1, of: 2 }
+          - { line: 7, chunk: 0, of: 6 }
+          - { line: 7, chunk: 1, of: 6 }
+          - { line: 7, chunk: 2, of: 6 }
+          - { line: 7, chunk: 3, of: 6 }
+          - { line: 7, chunk: 4, of: 6 }
+          - { line: 7, chunk: 5, of: 6 }
           # line 8: SRP CO@15
-          - { line: 8, chunk: 0, of: 2 }
-          - { line: 8, chunk: 1, of: 2 }
+          - { line: 8, chunk: 0, of: 8 }
+          - { line: 8, chunk: 1, of: 8 }
+          - { line: 8, chunk: 2, of: 8 }
+          - { line: 8, chunk: 3, of: 8 }
+          - { line: 8, chunk: 4, of: 8 }
+          - { line: 8, chunk: 5, of: 8 }
+          - { line: 8, chunk: 6, of: 8 }
+          - { line: 8, chunk: 7, of: 8 }
           # line 9: SRP CO@8
-          - { line: 9, chunk: 0, of: 2 }
-          - { line: 9, chunk: 1, of: 2 }
+          - { line: 9, chunk: 0, of: 6 }
+          - { line: 9, chunk: 1, of: 6 }
+          - { line: 9, chunk: 2, of: 6 }
+          - { line: 9, chunk: 3, of: 6 }
+          - { line: 9, chunk: 4, of: 6 }
+          - { line: 9, chunk: 5, of: 6 }
           # line 10: SRP MP@15
-          - { line: 10, chunk: 0, of: 2 }
-          - { line: 10, chunk: 1, of: 2 }
+          - { line: 10, chunk: 0, of: 8 }
+          - { line: 10, chunk: 1, of: 8 }
+          - { line: 10, chunk: 2, of: 8 }
+          - { line: 10, chunk: 3, of: 8 }
+          - { line: 10, chunk: 4, of: 8 }
+          - { line: 10, chunk: 5, of: 8 }
+          - { line: 10, chunk: 6, of: 8 }
+          - { line: 10, chunk: 7, of: 8 }
           # line 11: SRP MP@8
-          - { line: 11, chunk: 0, of: 2 }
-          - { line: 11, chunk: 1, of: 2 }
+          - { line: 11, chunk: 0, of: 6 }
+          - { line: 11, chunk: 1, of: 6 }
+          - { line: 11, chunk: 2, of: 6 }
+          - { line: 11, chunk: 3, of: 6 }
+          - { line: 11, chunk: 4, of: 6 }
+          - { line: 11, chunk: 5, of: 6 }
           # line 12: SRP EP@15
-          - { line: 12, chunk: 0, of: 2 }
-          - { line: 12, chunk: 1, of: 2 }
+          - { line: 12, chunk: 0, of: 8 }
+          - { line: 12, chunk: 1, of: 8 }
+          - { line: 12, chunk: 2, of: 8 }
+          - { line: 12, chunk: 3, of: 8 }
+          - { line: 12, chunk: 4, of: 8 }
+          - { line: 12, chunk: 5, of: 8 }
+          - { line: 12, chunk: 6, of: 8 }
+          - { line: 12, chunk: 7, of: 8 }
           # line 13: SRP EP@8
-          - { line: 13, chunk: 0, of: 2 }
-          - { line: 13, chunk: 1, of: 2 }
+          - { line: 13, chunk: 0, of: 6 }
+          - { line: 13, chunk: 1, of: 6 }
+          - { line: 13, chunk: 2, of: 6 }
+          - { line: 13, chunk: 3, of: 6 }
+          - { line: 13, chunk: 4, of: 6 }
+          - { line: 13, chunk: 5, of: 6 }
           # line 14: SRP SB@15
-          - { line: 14, chunk: 0, of: 2 }
-          - { line: 14, chunk: 1, of: 2 }
+          - { line: 14, chunk: 0, of: 8 }
+          - { line: 14, chunk: 1, of: 8 }
+          - { line: 14, chunk: 2, of: 8 }
+          - { line: 14, chunk: 3, of: 8 }
+          - { line: 14, chunk: 4, of: 8 }
+          - { line: 14, chunk: 5, of: 8 }
+          - { line: 14, chunk: 6, of: 8 }
+          - { line: 14, chunk: 7, of: 8 }
           # line 15: SRP SB@8
-          - { line: 15, chunk: 0, of: 2 }
-          - { line: 15, chunk: 1, of: 2 }
+          - { line: 15, chunk: 0, of: 6 }
+          - { line: 15, chunk: 1, of: 6 }
+          - { line: 15, chunk: 2, of: 6 }
+          - { line: 15, chunk: 3, of: 6 }
+          - { line: 15, chunk: 4, of: 6 }
+          - { line: 15, chunk: 5, of: 6 }
     steps:
       - uses: actions/checkout@v4
       - uses: dtolnay/rust-toolchain@stable
